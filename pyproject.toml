@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "econometrics-b"
+version = "0.1.0"
+description = ""
+authors = ["Nagayu <yanyongyouxi71@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+jupyter = "^1.0.0"
+numpy = "^1.26.1"
+matplotlib = "^3.8.1"
+pandas = "^2.1.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
